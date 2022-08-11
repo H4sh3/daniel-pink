@@ -15,9 +15,11 @@ const Hero = () => (
       }
       description={
         <>
-          <p>i'm interested in new technologies and science in general.</p>
-          I studied computer science at <a href="https://h-brs.de">Hochschule Bonn-Rhein-Sieg</a> and finished their with a B.Sc.
-          I develop software for many years, mainly in python and typescript(javascript) and recently in golang.
+          <p>I'm interested in new technologies and science in general.</p>
+          I studied computer science at <a target="_blank" className="underline" href="https://h-brs.de">Hochschule Bonn-Rhein-Sieg</a> and finished with a B.Sc.
+          <p>
+            I develop software for many years, mainly using python and typescript(javascript) and recently in golang.
+          </p>
 
           <div className="h-4"></div>
           <p>I started working as a freelancer in 2020.</p>
@@ -34,13 +36,22 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="https://twitter.com/shidumiro">
+          <a target="_blank"
+            href="https://twitter.com/shidumiro">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
             />
           </a>
-          <a href="/">
+          <a target="_blank"
+            href="https://github.com/H4sh3">
+            <HeroSocial
+              src="/assets/images/github-icon.webp"
+              alt="Github icon"
+            />
+          </a>
+          <a target="_blank"
+            href="https://www.youtube.com/channel/UCjuTxmv0QlmokCyZgMdC4Pw">
             <HeroSocial
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
