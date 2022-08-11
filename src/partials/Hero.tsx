@@ -15,15 +15,13 @@ const Hero = () => (
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          <p>i'm interested in new technologies and science in general.</p>
+          I studied computer science at <a href="https://h-brs.de">Hochschule Bonn-Rhein-Sieg</a> and finished their with a B.Sc.
+          I develop software for many years, mainly in python and typescript(javascript) and recently in golang.
+
+          <div className="h-4"></div>
+          <p>I started working as a freelancer in 2020.</p>
+          <p>Got an idea for a project? Reach out to me and shedule a call.</p>
         </>
       }
       avatar={
@@ -36,22 +34,10 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://twitter.com/shidumiro">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
             />
           </a>
           <a href="/">
