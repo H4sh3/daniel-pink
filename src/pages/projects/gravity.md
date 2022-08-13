@@ -6,6 +6,7 @@ pubDate: 2021-06-4T00:00:00Z
 imgSrc: '/assets/images/projects/gravity.png'
 imgAlt: 'Image post 4'
 ---
-
-<a href="https://projects.daniel-pink.de/gravity" target="_blank">Live Demo</a>
-<a href="https://github.com/H4sh3/gravity" target="_blank">Code</a>
+<div class="flex flex-col">
+    <a href="https://projects.daniel-pink.de/gravity" target="_blank">Live Demo</a>
+    <a href="https://github.com/H4sh3/gravity" target="_blank">Code</a>
+</div>

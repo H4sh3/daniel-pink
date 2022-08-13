@@ -21,16 +21,24 @@ Users can create, perform, share and track workouts, without the need of a month
 
 <h2>Tech Stack</h2>
 
-<h3>Frontend</h3>
+<div class="underline font-bold">
+Frontend
+</div>
 Nextjs/React application using tailwindcss for styling and zustand.js for state management.
 
-<h3>Backend</h3>
-The backend rest api is written in python and uses the falcon asgi webserver for fast request handling.
+<div class="underline font-bold">
+Backend
+</div>
+The backend's rest api is written in python and uses the falcon asgi webserver for fast request handling.
 
-<h3>Database</h3>
+<div class="underline font-bold">
+Database
+</div>
 Workouts, users, follower-following relations are stored in a PostgreSQL database.
 
-<h3>Caching</h3>
+<div class="underline font-bold">
+Caching
+</div>
 The deserialization of many workouts was slower then expected so i added a redis for caching.
 
 This way, requesting many workouts is much faster.

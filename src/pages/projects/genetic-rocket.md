@@ -15,5 +15,7 @@ The selected rocket is then used to generate copies with minor changes that will
 
 It can take some iterations to find a rocket that lands smoothly.
 
-<a href="https://projects.daniel-pink.de/genetic-rocket" target="_blank">Live Demo</a>
-<a href="https://github.com/H4sh3/genetic-rocket" target="_blank">Code</a>
+<div class="flex flex-col">
+    <a href="https://projects.daniel-pink.de/genetic-rocket" target="_blank">Live Demo</a>
+    <a href="https://github.com/H4sh3/genetic-rocket" target="_blank">Code</a>
+</div>
