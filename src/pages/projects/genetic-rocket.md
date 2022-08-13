@@ -1,8 +1,8 @@
 ---
 layout: '@/templates/BasePost.astro'
 title: Genetic Rocket
-description: Inspired by Space-X starship's landing maneuver, this program simulates a rocket that learns to land after a few generations of training.
-pubDate: 2020-02-06T00:00:00Z
+description: Inspired by Space-X starship's landing maneuver. This program simulates a rocket that learns to land after a few generations of training.
+pubDate: 2020-04-22T00:00:00Z
 imgSrc: '/assets/images/projects/genetic-rocket.png'
 imgAlt: 'Image post'
 ---
