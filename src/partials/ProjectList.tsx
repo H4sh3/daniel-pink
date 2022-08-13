@@ -21,7 +21,7 @@ const ProjectList = () => (
     <div className="flex flex-col gap-6">
       <Project
         name="Gymcadia - Fitness web app"
-        description="Full-stack development of a fitness app, where users can create, perform, share and track workouts."
+        description="Full-stack development of a fitness app, users can create, perform, share and track workouts."
         link="/projects/gymcadia"
         img={{
           src: '/assets/images/projects/gymcadia.png',
@@ -55,7 +55,7 @@ const ProjectList = () => (
       <Project
         name="RL-Maze"
         description="Implementation of an machine learning algorithm, were an agent has to find a goal in an maze."
-        link="/projects/genetic-rocket"
+        link="/projects/rl-maze"
         img={{
           src: '/assets/images/projects/rl-maze.png',
           alt: 'Project Web Design',
