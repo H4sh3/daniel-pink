@@ -8,5 +8,4 @@ imgAlt: 'Image post 4'
 ---
 
 <a href="https://projects.daniel-pink.de/gravity" target="_blank">Live Demo</a>
-
-Click to add more planets
+<a href="https://github.com/H4sh3/gravity" target="_blank">Code</a>
