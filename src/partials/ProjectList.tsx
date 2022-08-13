@@ -10,7 +10,7 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Some <GradientText>
+        Some of my <GradientText>
           <a href="/projects">
             Projects
           </a>

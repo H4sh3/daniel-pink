@@ -23,7 +23,12 @@ const Hero = () => (
 
           <div className="h-4"></div>
           <p>I started working as a freelancer in 2020.</p>
-          <p>Got an idea for a project? Reach out to me and shedule a call.</p>
+          <p>
+            Got an idea for a project?
+            <GradientText>
+              <a target="_blank" className="pl-2" href="mailto:daniel.pink1125@gmail.com">Contact</a>
+            </GradientText>
+          </p>
         </>
       }
       avatar={
