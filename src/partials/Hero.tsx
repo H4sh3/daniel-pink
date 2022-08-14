@@ -15,18 +15,17 @@ const Hero = () => (
       }
       description={
         <>
-          <p>I'm a Full-Stack-Developer interested in new technologies and science in general.</p>
+          <p>I'm working as a Freelancer and Full-Stack-Developer, always interested in new technologies and science in general.</p>
           I studied computer science at <a target="_blank" className="underline" href="https://h-brs.de">Hochschule Bonn-Rhein-Sieg</a> and finished with a B.Sc.
           <p>
             I develop software for many years, mainly using python and typescript (javascript) and recently Golang.
           </p>
 
           <div className="h-4"></div>
-          <p>I started working as a freelancer in 2020.</p>
           <p>
             Got an idea for a project?
             <GradientText>
-              <a target="_blank" className="pl-2" href="mailto:daniel.pink1125@gmail.com">Contact</a>
+              <a target="_blank" className="pl-2" href="mailto:daniel.pink1125@gmail.com">Contact me here</a>
             </GradientText>
           </p>
         </>

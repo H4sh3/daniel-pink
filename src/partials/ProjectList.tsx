@@ -9,13 +9,18 @@ import {
 const ProjectList = () => (
   <Section
     title={
-      <>
-        Some of my <GradientText>
-          <a href="/projects">
-            Projects
-          </a>
-        </GradientText>
-      </>
+      <div className="flex flex-row justify-between">
+        <div>
+          Recent Projects
+        </div>
+        <div>
+          <GradientText>
+            <a href="/projects">
+              Other Projects
+            </a>
+          </GradientText>
+        </div>
+      </div>
     }
   >
     <div className="flex flex-col gap-6">

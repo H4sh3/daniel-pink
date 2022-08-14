@@ -2,9 +2,13 @@
 layout: '@/templates/BasePost.astro'
 title: Gymcadia
 description: Full-stack development of a fitness app, where users can create, perform, share and track workouts.
-pubDate: 2021-09-22T00:00:00Z
+pubDate: 2022-09-22T00:00:00Z
 imgSrc: '/assets/images/projects/gymcadia.png'
 imgAlt: 'Image post 4'
+---
+
+<a href="https://gymcadia.com" target="_blank">Gymcadia.com</a>
+
 ---
 
 
@@ -16,7 +20,6 @@ Most fitness app's are behind a pay wall or use a subscription model, gymcadia i
 
 Users can create, perform, share and track workouts, without the need of a monthly subscription.
 
-<a href="https://gymcadia.com" target="_blank">Link to web app</a>
 
 
 <h2>Tech Stack</h2>
