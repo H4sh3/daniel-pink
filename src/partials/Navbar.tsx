@@ -1,3 +1,4 @@
+import { AppConfig } from '@/utils/AppConfig';
 import {
   Logo,
   NavbarTwoColumns,
@@ -28,14 +29,14 @@ const Navbar = () => (
               <path d="M4 20h14"></path>
             </svg>
           }
-          name="Daniel's Portfolio & Blog"
+          name={AppConfig.title}
         />
       </a>
 
       <NavMenu>
         <NavMenuItem href="/projects">Projects</NavMenuItem>
         <NavMenuItem href="https://github.com/H4sh3">GitHub</NavMenuItem>
-        <NavMenuItem href="https://twitter.com/Shidumiro">Twitter</NavMenuItem>
+        <NavMenuItem href="/assets/cv.pdf">CV</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>
