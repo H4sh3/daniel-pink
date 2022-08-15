@@ -1,7 +1,7 @@
 ---
 layout: '@/templates/BasePost.astro'
 title: Gymcadia
-description: Full-stack development of a fitness app, where users can create, perform, share and track workouts.
+description: Fitness web app I developed from front- to backend, where users can create, perform, share and track workouts.
 pubDate: 2022-09-22T00:00:00Z
 imgSrc: '/assets/images/projects/gymcadia.png'
 imgAlt: 'Image post 4'
@@ -48,3 +48,9 @@ This way, requesting many workouts is much faster.
 
 Only downside is that cache invalidation is a difficulty task but it works great so far.
 
+
+<div class="underline font-bold">
+Continuous Delivery
+</div>
+
+Utilizing ansible playbooks to deploy the test and productive environments.
