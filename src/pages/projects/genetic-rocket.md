@@ -16,7 +16,12 @@ imgAlt: 'Image post'
 
 This genetic algorithm runs multiple versions of slightly different behaving rockets.
 
-After each iteration the rocket that had the smallest velocity on impact is selected.
+After each iteration the rocket with the highest fitness is used as a base for the next generations.
+
+Fitness is calculated by combining three values:
+1. Distance to landing area
+2. Difference between rotation and upright rotation
+3. Velocity on landing
 
 The selected rocket is then used to generate copies with minor changes that will influence its behavior.
 
