@@ -13,13 +13,6 @@ const ProjectList = () => (
         <div>
           Recent Projects
         </div>
-        <div>
-          <GradientText>
-            <a href="/projects">
-              Other Projects
-            </a>
-          </GradientText>
-        </div>
       </div>
     }
   >
@@ -72,6 +65,13 @@ const ProjectList = () => (
           </>
         }
       />
+    </div>
+    <div className='text-2xl flex flex-row justify-center pt-12 font-bold'>
+      <GradientText>
+        <a href="/projects">
+          More Projects
+        </a>
+      </GradientText>
     </div>
   </Section>
 );
