@@ -2,24 +2,25 @@
 import type {
   FrontmatterPage,
   IFrontmatter,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 import {
-  BlogGallery,
   NewerOlderPagination,
   PaginationHeader,
   Section,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 
-import Base from '@/templates/Base.astro';
-import { AppConfig } from '@/utils/AppConfig';
-import { sortByDate } from '@/utils/Posts';
+import Base from "@/templates/Base.astro";
+import { AppConfig } from "@/utils/AppConfig";
+import { sortByDate } from "@/utils/Posts";
+
+import { BlogGallery } from "../../components/BlogGallery";
 
 type GetStaticPaths = {
   paginate: any;
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const allPosts = await Astro.glob<IFrontmatter>('./*.md');
+  const allPosts = await Astro.glob<IFrontmatter>("./*.md");
   const sortedPosts = sortByDate(allPosts);
 
   // Return a paginated collection of paths for all posts
@@ -35,22 +36,22 @@ const titleSuffix = ` - ${AppConfig.site_name}`;
 const titleBase = `Project page ${page.currentPage}`;
 const title = titleBase + titleSuffix;
 const description =
-  'Pagination example built with Astro styled with Tailwind CSS.';
+  "Pagination example built with Astro styled with Tailwind CSS.";
 ---
 
 <Base head={{ title, description }}>
-<Section>
-  <PaginationHeader title='Collection of projects'
-    description='Many of these projects are just small web programs written in JS and the p5 library.'>
-  </PaginationHeader>
-</Section>
+  <Section>
+    <PaginationHeader
+      title="Collection of projects"
+      description="Many of these projects are just small web programs written in JS and the p5 library."
+    />
+  </Section>
 
-<Section>
-  <BlogGallery postList={page.data} />
-</Section>
+  <Section>
+    <BlogGallery postList={page.data} />
+  </Section>
 
-<Section>
-  <NewerOlderPagination page={page} />
-</Section>
-
+  <Section>
+    <NewerOlderPagination page={page} />
+  </Section>
 </Base>
