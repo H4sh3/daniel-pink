@@ -27,7 +27,28 @@ export default defineConfig({
     react(),
     tailwind({}),
     sitemap(),
-    robotsTxt(),
+    robotsTxt({
+      policy: [
+        {
+          userAgent: 'Googlebot',
+          allow: '/',
+          disallow: ['/assets/cv.pdf'],
+          crawlDelay: 2,
+        },
+        {
+          userAgent: 'OtherBot',
+          allow: '/',
+          disallow: ['/assets/cv.pdf'],
+          crawlDelay: 2,
+        },
+        {
+          userAgent: '*',
+          allow: '/',
+          disallow: ['/assets/cv.pdf'],
+          crawlDelay: 2,
+        },
+      ],
+    }),
     astroImageTools,
   ],
 });
