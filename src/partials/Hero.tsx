@@ -16,7 +16,7 @@ const Hero = () => (
       description={
         <>
           <p>I'm a Freelancer and Full-Stack-Developer, interested in new technologies and science in general.</p>
-          I studied computer science at <a target="_blank" className="underline" href="https://h-brs.de">Hochschule Bonn-Rhein-Sieg</a> and finished with a degree in informatics.
+          I studied at <a target="_blank" className="underline" href="https://h-brs.de">Hochschule Bonn-Rhein-Sieg</a> and finished with a degree in computer science.
           <p>
             I develop software for many years, mainly using python and typescript (javascript) and recently Golang.
           </p>
