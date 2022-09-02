@@ -10,8 +10,7 @@
     "clean": "rimraf dist",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.astro .",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install",
-    "deploy": "astro build; rsync ./dist/* -av -e ssh --exclude='*.jpeg' user@zeta:/var/www/dp/"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@astrojs/react": "^0.1.3",
