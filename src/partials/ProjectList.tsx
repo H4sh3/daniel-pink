@@ -20,7 +20,7 @@ const ProjectList = () => (
       <Project
         name="Gymcadia - Fitness web app"
         description="Full-stack development of a fitness app, users can create, perform, share and track workouts."
-        link="/projects/gymcadia"
+        link="/projects/gymcadia/"
         img={{
           src: '/assets/images/projects/gymcadia.png',
           alt: 'Project Web Design',
@@ -38,7 +38,7 @@ const ProjectList = () => (
       <Project
         name="Genetic Rocket"
         description="Inspired by Space-X starship's landing maneuver. This program simulates a rocket that learns to land after a few generations of training."
-        link="/projects/genetic-rocket"
+        link="/projects/genetic-rocket/"
         img={{
           src: '/assets/images/projects/genetic-rocket.png',
           alt: 'Project Web Design',
@@ -53,7 +53,7 @@ const ProjectList = () => (
       <Project
         name="RL-Maze"
         description="Implementation of an machine learning algorithm, were an agent has to find a goal in an maze."
-        link="/projects/rl-maze"
+        link="/projects/rl-maze/"
         img={{
           src: '/assets/images/projects/rl-maze.png',
           alt: 'Project Web Design',
@@ -68,7 +68,7 @@ const ProjectList = () => (
     </div>
     <div className='text-2xl flex flex-row justify-center pt-12 font-bold'>
       <GradientText>
-        <a href="/projects">
+        <a href="/projects/">
           More Projects
         </a>
       </GradientText>
