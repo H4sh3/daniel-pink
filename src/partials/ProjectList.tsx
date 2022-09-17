@@ -23,15 +23,13 @@ const ProjectList = () => (
         link="/posts/article/"
         img={{
           src: '/assets/images/blog/nginx.png',
-          alt: 'Project Web Design',
+          alt: 'Nginx logs',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Nextjs</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Nginx</Tags>
             <Tags color={ColorTags.LIME}>Python</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
-            <Tags color={ColorTags.ORANGE}>Redis</Tags>
+            <Tags color={ColorTags.BLUE}>Data</Tags>
           </>
         }
       />
