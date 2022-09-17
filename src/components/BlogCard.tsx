@@ -7,7 +7,7 @@ type IBlogCardProps = {
 };
 
 const BlogCard = (props: IBlogCardProps) => (
-    <a className="hover:translate-y-1" href={props.instance.url}>
+    <a className="hover:translate-y-1" href={`${props.instance.url}/`}>
         <div className="overflow-hidden rounded-md bg-slate-800 h-full">
             <div className="aspect-w-3 aspect-h-2">
                 <img
