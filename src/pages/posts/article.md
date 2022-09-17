@@ -10,6 +10,9 @@ imgAlt: 'Image post'
 <div class="flex flex-col">
     <a href="https://github.com/H4sh3/nginx-log-inspect" target="_blank">Code</a>
 </div>
+<div class="h-12"></div>
+
+# Intro
 
 While inspecting the nginx logs of my server, I noticed some strange requests and started a little investigation.
 
