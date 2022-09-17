@@ -7,22 +7,22 @@ import {
 } from 'astro-boilerplate-components';
 
 const ProjectList = () => (
-  <Section
-    title={
-      <div className="flex flex-row justify-between">
-        <div>
-          Recent Projects
+  <>
+    <Section
+      title={
+        <div className="flex flex-row justify-between">
+          <div>
+            Posts
+          </div>
         </div>
-      </div>
-    }
-  >
-    <div className="flex flex-col gap-6">
+      }
+    >
       <Project
-        name="Gymcadia - Fitness web app"
-        description="Full-stack development of a fitness app, users can create, perform, share and track workouts."
-        link="/projects/gymcadia/"
+        name="Processing Nginx access.log files with python"
+        description="Writeup of a script I wrote using python to process and analyze Nginx log files."
+        link="/posts/article/"
         img={{
-          src: '/assets/images/projects/gymcadia.png',
+          src: '/assets/images/blog/nginx.png',
           alt: 'Project Web Design',
         }}
         category={
@@ -35,45 +35,75 @@ const ProjectList = () => (
           </>
         }
       />
-      <Project
-        name="Genetic Rocket"
-        description="Inspired by Space-X starship's landing maneuver. This program simulates a rocket that learns to land after a few generations of training."
-        link="/projects/genetic-rocket/"
-        img={{
-          src: '/assets/images/projects/genetic-rocket.png',
-          alt: 'Project Web Design',
-        }}
-        category={
-          <>
-            <Tags color={ColorTags.ROSE}>Javascript</Tags>
-            <Tags color={ColorTags.FUCHSIA}>P5.js</Tags>
-          </>
-        }
-      />
-      <Project
-        name="RL-Maze"
-        description="Implementation of an machine learning algorithm, were an agent has to find a goal in an maze."
-        link="/projects/rl-maze/"
-        img={{
-          src: '/assets/images/projects/rl-maze.png',
-          alt: 'Project Web Design',
-        }}
-        category={
-          <>
-            <Tags color={ColorTags.ROSE}>Javascript</Tags>
-            <Tags color={ColorTags.FUCHSIA}>P5.js</Tags>
-          </>
-        }
-      />
-    </div>
-    <div className='text-2xl flex flex-row justify-center pt-12 font-bold'>
-      <GradientText>
-        <a href="/projects/">
-          More Projects
-        </a>
-      </GradientText>
-    </div>
-  </Section>
+    </Section>
+    <Section
+      title={
+        <div className="flex flex-row justify-between">
+          <div>
+            Recent Projects
+          </div>
+        </div>
+      }
+    >
+      <div className="flex flex-col gap-6">
+        <Project
+          name="Gymcadia - Fitness web app"
+          description="Full-stack development of a fitness app, users can create, perform, share and track workouts."
+          link="/projects/gymcadia/"
+          img={{
+            src: '/assets/images/projects/gymcadia.png',
+            alt: 'Project Web Design',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.FUCHSIA}>Nextjs</Tags>
+              <Tags color={ColorTags.LIME}>Python</Tags>
+              <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
+              <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+              <Tags color={ColorTags.ORANGE}>Redis</Tags>
+            </>
+          }
+        />
+        <Project
+          name="Genetic Rocket"
+          description="Inspired by Space-X starship's landing maneuver. This program simulates a rocket that learns to land after a few generations of training."
+          link="/projects/genetic-rocket/"
+          img={{
+            src: '/assets/images/projects/genetic-rocket.png',
+            alt: 'Project Web Design',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.ROSE}>Javascript</Tags>
+              <Tags color={ColorTags.FUCHSIA}>P5.js</Tags>
+            </>
+          }
+        />
+        <Project
+          name="RL-Maze"
+          description="Implementation of an machine learning algorithm, were an agent has to find a goal in an maze."
+          link="/projects/rl-maze/"
+          img={{
+            src: '/assets/images/projects/rl-maze.png',
+            alt: 'Project Web Design',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.ROSE}>Javascript</Tags>
+              <Tags color={ColorTags.FUCHSIA}>P5.js</Tags>
+            </>
+          }
+        />
+      </div>
+      <div className='text-2xl flex flex-row justify-center pt-12 font-bold'>
+        <GradientText>
+          <a href="/projects/">
+            More Projects
+          </a>
+        </GradientText>
+      </div>
+    </Section>
+  </>
 );
 
 export { ProjectList };
