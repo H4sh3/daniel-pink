@@ -45,6 +45,22 @@ const ProjectList = () => (
     >
       <div className="flex flex-col gap-6">
         <Project
+          name="Boids"
+          description="Simple agents that observe their nearby neighbors and behave on simple rules."
+          link="/projects/boids/"
+          img={{
+            src: '/assets/images/projects/boids.png',
+            alt: 'Project Web Design',
+          }}
+          category={
+            <>
+              <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
+              <Tags color={ColorTags.ROSE}>Javascript</Tags>
+              <Tags color={ColorTags.FUCHSIA}>P5.js</Tags>
+            </>
+          }
+        />
+        <Project
           name="Gymcadia - Fitness web app"
           description="Full-stack development of a fitness app, users can create, perform, share and track workouts."
           link="/projects/gymcadia/"
