@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: PomodoroLog
 description: Simple pomodoro app that can also be used to manage a todo list
-pubDate: 2022-10-13T00:00:00Z
+pubDate: 2022-09-13T00:00:00Z
 imgSrc: '/assets/images/projects/pomodoroLog.webp'
 imgAlt: 'Image post'
 ---
